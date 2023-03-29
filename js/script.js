@@ -32,8 +32,8 @@ window.onscroll = () => {
     header.classList.toggle('sticky', window.scrollY > 100);
 
     // remover alternar icone e barra quando clicar
-    menuIcon.classList.toggle('bx-x');
-    navbar.classList.toggle('active');
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.remove('active');
 };
 
 // rolagem
@@ -52,10 +52,11 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 // tipos js
 
-const typed = new Typed('.multiple-text', {
-    string: ['Wellington Monteiro', 'Frontend Developer'],
-    typeSpeed: 100,
-    backSpeed: 100,
-    backDelay: 1000,
+const typed = new Typed('#element', {
+    strings: ['Frontend Developer'],
+    typeSpeed: 150,
+    backSpeed: 150,    
+    backDelay: 3000,
     loop: true
+
 });
