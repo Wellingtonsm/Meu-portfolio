@@ -312,14 +312,14 @@ span {
 }
 
 .contact h2 {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .contact form {
     max-width: 70rem;
     margin: 1rem auto;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .contact form .input-box {
@@ -348,8 +348,15 @@ span {
 }
 
 .contact form .btn {
-    margin-top: 2rem;
+    margin-top: 1rem;
     cursor: pointer;
+}
+#email {
+    max-width: 30rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
 }
 
 .footer {

@@ -53,7 +53,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 // tipos js
 
 const typed = new Typed('#element', {
-    strings: ['Front-end Developer'],
+    strings: ['Engenheiro de Produção'],
     typeSpeed: 150,
     backSpeed: 150,    
     backDelay: 3000,
