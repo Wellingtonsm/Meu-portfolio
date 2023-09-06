@@ -53,10 +53,9 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 // tipos js
 
 const typed = new Typed('#element', {
-    strings: ['Engenheiro de Produção'],
+    strings: ['Eng. de Produção'],
     typeSpeed: 150,
     backSpeed: 150,    
     backDelay: 3000,
     loop: true
-
 });
